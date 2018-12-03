@@ -4,7 +4,7 @@ using PactNet.Models;
 using System;
 using System.IO;
 
-namespace ConsumerTests
+namespace FlightsApiTestsTests
 {
     public class ConsumerEventApiPact : IDisposable
     {
@@ -21,8 +21,8 @@ namespace ConsumerTests
                 LogDir = $"..{Path.DirectorySeparatorChar}..{Path.DirectorySeparatorChar}..{Path.DirectorySeparatorChar}logs{Path.DirectorySeparatorChar}",
                 PactDir = $"..{Path.DirectorySeparatorChar}..{Path.DirectorySeparatorChar}..{Path.DirectorySeparatorChar}pacts{Path.DirectorySeparatorChar}"
             })
-            .ServiceConsumer("Consumer")
-            .HasPactWith("Provider");
+            .ServiceConsumer("FlightsApi")
+            .HasPactWith("PassengersApi");
 
             MockProviderService = PactBuilder.MockService(MockServerPort, false, IPAddress.Any);
         }

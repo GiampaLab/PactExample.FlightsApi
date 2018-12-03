@@ -3,9 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.28307.106
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Consumer", "Consumer\Consumer.csproj", "{54E33156-2A14-453F-843D-02A587E405C8}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FlightsApi", "FlightsApi\FlightsApi.csproj", "{54E33156-2A14-453F-843D-02A587E405C8}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConsumerTests", "ConsumerTests\ConsumerTests.csproj", "{7355F3F1-1FA3-48B7-BB84-1A8C2A5B1888}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FlightsApiTests", "FlightsApiTests\FlightsApiTests.csproj", "{7355F3F1-1FA3-48B7-BB84-1A8C2A5B1888}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
